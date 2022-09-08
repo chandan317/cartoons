@@ -1,0 +1,25 @@
+.animes-list{
+
+  display: grid;
+  grid-template-columns: 300px 300px;
+  justify-content: center;
+}
+/* .nav{
+  display: flex;
+  grid-template-columns: auto;
+  justify-content: center;
+
+} */
+.anime{
+  background-color: aqua;
+}
+
+.anime button{
+  background-color: transparent;
+  border: none;
+}
+
+.anime button:active{
+
+  transform: scale(1.5);
+}
